@@ -8,18 +8,22 @@ body {
 	color: #FFF;
 	font-family: "Brotesk", sans-serif;
 }
+
 .main-btn {
-	background-color: #0073E6;
-	color: #FFF;
+    text-decoration: none;
+    background: #0073E6;
 	border-radius: 20px;
-	border: 5px solid #000; 
+    transition: 0.5s;
+	border: none;
+}
+
+.main-btn:focus {
+   outline: none; 
 }
 
 .main-btn:hover {
-	background-color: #FFFFFF;
-	color: #000;
-	border: 5px solid #0073E6;
-	transition: all 250ms ease;
+    transition: 0.5s;
+    box-shadow: -5px 5px 0 #0073E6;
 }
 
 @media (max-width: 991px) {
@@ -34,6 +38,6 @@ body {
 }
 @media (max-width: 1399px) {
 	.logo-main {
-		text-align: center !important;
+		
 	}
 }
