@@ -117,10 +117,19 @@ body {
 @media (max-width: 991.5px) {
 	.main-btn {
 		margin-top: 1rem;
-		width: 400px;
+		max-width: 250px;
 	}
 	
 }
+
+@media (max-width: 500px) {
+	.main-btn {
+		margin-top: 1rem;
+		max-width: 200px;
+	}
+	
+}
+
 @media (min-width: 1400px) {
 	.logo-main {
 		position: absolute;
