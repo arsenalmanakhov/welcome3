@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Brotesk';
+    src: url(Brotesk.otf);
+}
+
+body {
+	background-color: #000;
+	color: #FFF;
+	font-family: "Brotesk", sans-serif;
+}
+.main-btn {
+	background-color: #0073E6;
+	color: #FFF;
+	border-radius: 20px;
+	border: 5px solid #000; 
+}
+
+.main-btn:hover {
+	background-color: #FFFFFF;
+	color: #000;
+	border: 5px solid #0073E6;
+	transition: all 250ms ease;
+}
+
+@media (max-width: 991px) {
+	.main-btn {
+		margin-top: 1rem;
+	}
+}
+@media (min-width: 1400px) {
+	.logo-main {
+		position: absolute;
+	}
+}
+@media (max-width: 1399px) {
+	.logo-main {
+		text-align: center !important;
+	}
+}
