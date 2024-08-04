@@ -8,18 +8,17 @@ body {
 	color: #FFF;
 	font-family: "Brotesk", sans-serif;
 }
-
 .main-img {
 	height: 100%;
-	opacity: 0;
-	animation: v 2.5s forwards;
+	opacity: 0.01;
+	animation: v 2s forwards;
 }
 
 @keyframes v {
-  0% {
-	  opacity: 0;
-	 }
-  100% {
+	0% {
+		opacity: 0.01;
+		}
+	100% {
 		opacity: 1;
 	   }
 }
@@ -41,7 +40,7 @@ body {
     box-shadow: -5px 5px 0 #0073E6;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.5px) {
 	.main-btn {
 		margin-top: 1rem;
 	}
@@ -51,8 +50,19 @@ body {
 		position: absolute;
 	}
 }
-@media (max-width: 1399px) {
+@media (max-width: 1399.5px) {
+	
+	.navbar {
+		position: relative;
+	}
+
 	.logo-main {
-		
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+		margin-top: 100px;
+	}
+	header {
+		margin-top: 100px;
 	}
 }
