@@ -14,6 +14,19 @@ body {
 	animation: v 2s forwards;
 }
 
+.app-img {
+	margin-top: 3rem;
+	width: 50%;
+}
+.app-text {
+	margin-top: 5rem;
+	font-size: 24px;
+}
+.ul-margin-left {
+	margin-top: 3rem;
+	margin-left: 10%;
+}
+
 @keyframes v {
 	0% {
 		opacity: 0.01;
@@ -83,4 +96,16 @@ body {
 	header {
 		margin-top: 100px;
 	}
+}
+@media (max-width: 1199.5px) {
+	.app-img {
+		margin-top: 3rem;
+		width: 40%;
+	}
+	.ul-margin-left {
+		text-align: center;
+		list-style-position: inside;
+		margin-left: 0%;
+	}
+	
 }
