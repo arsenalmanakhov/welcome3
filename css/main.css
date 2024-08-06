@@ -8,6 +8,11 @@ body {
 	color: #FFF;
 	font-family: "Brotesk", sans-serif;
 }
+
+.text-justify {
+	text-align: justify !important;
+}
+
 .main-img {
 	height: 100%;
 	opacity: 0.01;
@@ -20,7 +25,7 @@ body {
 }
 .app-text {
 	margin-top: 5rem;
-	font-size: 24px;
+	font-size: 22px;
 }
 .ul-margin-left {
 	margin-top: 3rem;
