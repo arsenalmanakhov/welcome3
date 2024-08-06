@@ -13,6 +13,10 @@ body {
 	text-align: justify !important;
 }
 
+.text-indent-1_5 {
+	text-indent: 1.5em;
+}
+
 .main-img {
 	height: 100%;
 	opacity: 0.01;
